@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="proyectocss/pryectocv.css">
+    <title>curriculum vitae </title>
+</head>
+<body>
+    <!--menu encabezado-->
+    <div class="contenedor-header"> 
+    <header>
+    <div class="logo">
+        <a href="#">valentino</a>
+    </div>
+    <nav id="nav">
+        <ul>
+            <li><a href="#inicio" onclick="seleccionar()">inicio</a></li>
+            <li><a href="#sobremi"onclick="seleccionar()">sobre mi</a></li>
+            <li><a href="#curriculum"onclick="seleccionar()">curriculum</a></li>
+            <li><a href="#contacto"onclick="seleccionar()">contacto</a></li>
+        </ul>
+    </nav>
+    <div class="nav-responsive"onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    
+</header>
+</div>
+    <!--seccion inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenpro/81.jpg" alt="">
+            </div>
+            <h1>VALENTINO BRIZUELA</h1>
+            <h2>tecnico en programacion</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola , soy Valentino.</span>Programador web con más de 10 años de trayectoria desarrolladas en el eCommerce. A lo largo de estos años, he tenido el privilegio de formar parte en la creación de webs como geekletics.es y peternappi.es, las cuales han cultivado un gran éxito, tanto en tráfico como en conversiones. Busco formar parte de Gesico Sistemas para mi capacidad creativa al siguiente nivel, aportando mis amplios conocimientos en CSS y Prestashop.</p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>cumpleaños</strong>
+                            15-01-1980
+                        </li>
+                        <li>
+                            <strong>telefono</strong>
+                            3484 5454454
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            valen_12@hotmail.com
+                        </li>
+                        <li>
+                            <strong>website</strong>
+                            www.misitio.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Escobar Buenos Aires Argentina
+                        </li>
+                        <li>
+                            <strong>cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <H3>Intereses</H3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>REDES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar cv <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- seccion curriculum -->
+    <selection id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Grado Superior en Desarrollo de Aplicaciones Web</h4>
+                        <span class="casa">Universidad delta</span>
+                        <span class="fecha">2013 - 2014</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, vel ullam nihil et distinctio sed officia autem alias placeat quasi enim, error obcaecati facilis ipsam, deleniti ipsum ab a! Cumque.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>programacion web nivel 1</h4>
+                        <span class="casa">Utn pacheco</span>
+                        <span class="fecha">2012</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, vel ullam nihil et distinctio sed officia autem alias placeat quasi enim, error obcaecati facilis ipsam, deleniti ipsum ab a! Cumque.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>programacion web nivel 2</h4>
+                        <span class="casa">Utn pacheco</span>
+                        <span class="fecha">2013</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, vel ullam nihil et distinctio sed officia autem alias placeat quasi enim, error obcaecati facilis ipsam, deleniti ipsum ab a! Cumque.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Presente Analista Programador,</h4>
+                        <span class="casa">zontics</span>
+                        <span class="fecha">2018</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, vel ullam nihil et distinctio sed officia autem alias placeat quasi enim, error obcaecati facilis ipsam, deleniti ipsum ab a! Cumque.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programador Full Stack</h4>
+                        <span class="casa">finanbest</span>
+                        <span class="fecha">2011 - 2014</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, vel ullam nihil et distinctio sed officia autem alias placeat quasi enim, error obcaecati facilis ipsam, deleniti ipsum ab a! Cumque.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programadora web</h4>
+                        <span class="casa">Sistemas Informáticos SL</span>
+                        <span class="fecha">2011 - 2014</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, vel ullam nihil et distinctio sed officia autem alias placeat quasi enim, error obcaecati facilis ipsam, deleniti ipsum ab a! Cumque.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </selection>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="imagenpro/ubicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
